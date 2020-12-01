@@ -20,6 +20,7 @@
         "lint": "tslint -c ./tslint.json 'src/**/*.ts' 'test/**/*.ts'"
     },
     "dependencies": {
+        "@types/lodash": "4.14.165",
         "@types/node": "^8.10.66",
         "@types/sequelize": "^4.28.9",
         "@types/winston": "^2.4.4",
