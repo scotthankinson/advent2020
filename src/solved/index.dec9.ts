@@ -34,7 +34,7 @@ const solve_dec_9_pt1 = () => {
 }
 
 const checkLine = (cipher: any, line: number) => {
-    if (cipher.preamble.length < 5) {
+    if (cipher.preamble.length < 25) {
         cipher.preamble.push(line);
     } else {
         if (!cipher.valid.has(line)) return false;
@@ -45,10 +45,10 @@ const checkLine = (cipher: any, line: number) => {
     return true;
 }
 
-const assembleValidList = (preamble: Set<number>) => {
+const assembleValidList = (preamble: []) => {
     let valid = new Set();
-    for(let i = 0; i < preamble.size; i++){
-        for(let j = 0; j < preamble.size; j++){
+    for(let i = 0; i < preamble.length; i++){
+        for(let j = 0; j < preamble.length; j++){
             if (i === j) continue;
             valid.add(preamble[i] + preamble[j]);
         }
@@ -61,9 +61,9 @@ const solve_dec_9_pt2 = () => {
         let data = fs.readFileSync('src/test.dec9.txt', 'utf8');
         const lines = data.split('\n').map(o => parseInt(o));
 
+        let target = 22406676;
+        // let target = 127;
         for(let i = 0; i < lines.length; i++){
-            let target = 22406676;
-            // let target = 127;
             let sum = 0;
             let pos = i;
             while (sum < target){
