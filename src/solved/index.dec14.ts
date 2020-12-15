@@ -77,11 +77,12 @@ const solve_dec_14_pt2 = () => {
         for (let i = 0; i < fullInstructions.length; i++){
             cpu[fullInstructions[i].dest] = fullInstructions[i].val;
         }
-        console.log(cpu);
+        
         let sum = 0;
         for(let key of Object.keys(cpu)){
             sum += cpu[key];
         }
+        
         return sum;
     } catch (e) {
         console.log('Error:', e.stack);
