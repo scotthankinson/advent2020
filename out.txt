@@ -1,0 +1,320 @@
+
+> advent-2017@0.0.0 start /Users/shankinson/Documents/Development/advent2020
+> npm run build && node dist/index.js
+
+
+> advent-2017@0.0.0 build /Users/shankinson/Documents/Development/advent2020
+> npm run clean && tsc
+
+
+> advent-2017@0.0.0 clean /Users/shankinson/Documents/Development/advent2020
+> rm -rf dist
+
+{ flat: false, parts: [ '42' ] }
+Settling: 1
+Settled: 0
+Settling: 2
+Settled: 0
+Settling: 4
+Settled: 0
+Settling: 7
+Settled: 0
+Settling: 11
+Settled: 0
+Settling: 8
+Settled: 8
+Settling: 0
+Settled: 8
+16
+Rule 8's
+babbb
+baabb
+abbbb
+aabbb
+aaaba
+ababa
+bbbba
+bbaaa
+bbaab
+bbbab
+bbabb
+bbbbb
+aaaab
+aaabb
+aaaaa
+baaaa
+{ flat: false, parts: [ '42 31' ] }
+Settling: 1
+Settled: 0
+Settling: 4
+Settled: 0
+Settling: 16
+Settled: 0
+Settling: 56
+Settled: 0
+Settling: 143
+Settled: 0
+Settling: 176
+Settled: 80
+Settling: 0
+Settled: 176
+256
+Rule 11's
+babbbbbaba
+baabbbbaba
+babbbbbbaa
+baabbbbbaa
+abbbbbbaba
+aabbbbbaba
+abbbbbbbaa
+aabbbbbbaa
+babbbbabab
+baabbbabab
+babbbbaaba
+baabbbaaba
+babbbbaaab
+baabbbaaab
+abbbbbabab
+aabbbbabab
+abbbbbaaba
+abbbbbaaab
+aabbbbaaba
+aabbbbaaab
+aaababbaba
+abababbaba
+bbbbabbaba
+aaababbbaa
+abababbbaa
+bbbbabbbaa
+bbaaabbaba
+bbaaabbbaa
+aaabababab
+ababababab
+bbbbababab
+aaababaaba
+abababaaba
+aaababaaab
+abababaaab
+bbbbabaaba
+bbbbabaaab
+bbaaababab
+bbaaabaaba
+bbaaabaaab
+babbbababb
+baabbababb
+babbbabbba
+baabbabbba
+abbbbababb
+aabbbababb
+abbbbabbba
+aabbbabbba
+babbbaabab
+baabbaabab
+babbbaabaa
+baabbaabaa
+babbbaabba
+baabbaabba
+abbbbaabab
+aabbbaabab
+abbbbaabaa
+abbbbaabba
+aabbbaabaa
+aabbbaabba
+aaabaababb
+ababaababb
+bbbbaababb
+aaabaabbba
+ababaabbba
+bbbbaabbba
+bbaaaababb
+bbaaaabbba
+aaabaaabab
+ababaaabab
+bbbbaaabab
+aaabaaabaa
+ababaaabaa
+aaabaaabba
+ababaaabba
+bbbbaaabaa
+bbbbaaabba
+bbaaaaabab
+bbaaaaabaa
+bbaaaaabba
+bbaabbbaba
+bbbabbbaba
+bbabbbbaba
+bbbbbbbaba
+bbaabbbbaa
+bbbabbbbaa
+bbabbbbbaa
+bbbbbbbbaa
+aaaabbbaba
+aaabbbbaba
+aaaabbbbaa
+aaabbbbbaa
+babbbbabaa
+babbbbabba
+baabbbabaa
+baabbbabba
+bbaabbabab
+bbbabbabab
+bbabbbabab
+bbbbbbabab
+bbaabbabaa
+bbbabbabaa
+bbabbbabaa
+bbbbbbabaa
+bbaabbabba
+bbbabbabba
+bbabbbabba
+bbbbbbabba
+bbaabbaaba
+bbbabbaaba
+bbabbbaaba
+bbbbbbaaba
+bbaabbaaab
+bbbabbaaab
+bbabbbaaab
+bbbbbbaaab
+abbbbbabaa
+abbbbbabba
+aaaabbabab
+aaabbbabab
+aabbbbabaa
+aabbbbabba
+aaaabbabaa
+aaabbbabaa
+aaaabbabba
+aaabbbabba
+aaaabbaaba
+aaabbbaaba
+aaaabbaaab
+aaabbbaaab
+aaaaabbaba
+baaaabbaba
+aaaaabbbaa
+baaaabbbaa
+aaabababaa
+aaabababba
+ababababaa
+ababababba
+bbbbababaa
+bbbbababba
+aaaaababab
+baaaababab
+aaaaababaa
+baaaababaa
+aaaaababba
+baaaababba
+bbaaababaa
+bbaaababba
+aaaaabaaba
+baaaabaaba
+aaaaabaaab
+baaaabaaab
+babbbabaab
+babbbabbab
+baabbabaab
+baabbabbab
+bbaabababb
+bbbabababb
+bbabbababb
+bbbbbababb
+bbaababaab
+bbbababaab
+bbabbabaab
+bbbbbabaab
+bbaababbab
+bbbababbab
+bbabbabbab
+bbbbbabbab
+babbbabaaa
+babbbabbaa
+baabbabaaa
+baabbabbaa
+bbaababaaa
+bbbababaaa
+bbabbabaaa
+bbbbbabaaa
+bbaababbaa
+bbbababbaa
+bbabbabbaa
+bbbbbabbaa
+bbaababbba
+bbbababbba
+bbabbabbba
+bbbbbabbba
+abbbbabaab
+abbbbabbab
+aaaabababb
+aaabbababb
+aabbbabaab
+aabbbabbab
+aaaababaab
+aaabbabaab
+aaaababbab
+aaabbabbab
+abbbbabaaa
+abbbbabbaa
+aabbbabaaa
+aabbbabbaa
+aaaababaaa
+aaabbabaaa
+aaaababbaa
+aaabbabbaa
+aaaababbba
+aaabbabbba
+bbaabaabab
+bbbabaabab
+bbabbaabab
+bbbbbaabab
+bbaabaabaa
+bbbabaabaa
+bbabbaabaa
+bbbbbaabaa
+bbaabaabba
+bbbabaabba
+bbabbaabba
+bbbbbaabba
+aaaabaabab
+aaabbaabab
+aaaabaabaa
+aaabbaabaa
+aaaabaabba
+aaabbaabba
+aaabaabaab
+aaabaabbab
+ababaabaab
+ababaabbab
+bbbbaabaab
+bbbbaabbab
+aaabaabaaa
+aaabaabbaa
+ababaabaaa
+ababaabbaa
+bbbbaabaaa
+bbbbaabbaa
+aaaaaababb
+baaaaababb
+aaaaaabaab
+baaaaabaab
+aaaaaabbab
+baaaaabbab
+bbaaaabaab
+bbaaaabbab
+aaaaaabaaa
+baaaaabaaa
+aaaaaabbaa
+baaaaabbaa
+bbaaaabaaa
+bbaaaabbaa
+aaaaaabbba
+baaaaabbba
+aaaaaaabab
+baaaaaabab
+aaaaaaabaa
+baaaaaabaa
+aaaaaaabba
+baaaaaabba
+0: 0
+3
